@@ -1,0 +1,17 @@
+{
+    "name": "Aivo Challenge",
+    "description": "This application provides a way to easily get Twitter feeds",
+    "authors": [ 
+        {
+            "name": "Jorge Ferreyra"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}
