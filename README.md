@@ -11,7 +11,7 @@ Las tecnologías utilizadas para el desafío fueron:
 
 * [SlimFramework](http://www.slimframework.com/) - a micro framework for PHP
 
-### Installation
+### Instalación
 
 El proyecto necesita [Composer](https://getcomposer.org/) y [cURL](https://curl.haxx.se/)
 
