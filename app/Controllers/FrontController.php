@@ -8,11 +8,11 @@ use App\Models\Twitter;
 
 class FrontController {
 
-    public function index() {
-        $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+    public function index(Request $request, Response $response, array $args) {
+        $url = $request->getUri() . "jorgeeferreyra";
 
         echo json_encode([
-            "message" => "Please provide a username. Example: $url/jorgeeferreyra"
+            "message" => "Please provide a username. Example: $url"
         ]);
     }
 

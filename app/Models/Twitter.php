@@ -24,7 +24,7 @@ class Twitter {
             !isset($oauthAccessTokenSecret) ||
             !isset($consumerKey) ||
             !isset($consumerSecret)) {
-            throw new Exception("The credentials are missing");
+            throw new \Exception("The credentials are missing");
         }
 
         $this->oauthAccessToken       = $oauthAccessToken;
