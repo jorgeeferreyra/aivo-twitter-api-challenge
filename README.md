@@ -1,6 +1,7 @@
 # Aivo Twitter API Challenge
 
 Con esta aplicación puedes obtener los feeds de un usuario de Twitter ingresando su username en la url
+
 Ejemplo:
   - http://dominio.com/jorgeeferreyra
 
