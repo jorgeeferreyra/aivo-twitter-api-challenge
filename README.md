@@ -9,7 +9,7 @@ Ejemplo:
 
 Las tecnologías utilizadas para el desafío fueron:
 
-* [SlimFramwrodk](http://www.slimframework.com/) - a micro framework for PHP
+* [SlimFramework](http://www.slimframework.com/) - a micro framework for PHP
 
 ### Installation
 
