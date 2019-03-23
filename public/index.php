@@ -12,16 +12,13 @@ define("APP_PATH",    join(DIRECTORY_SEPARATOR, [ ROOT_PATH, "app" ]));
 // donde también declaro mi carpeta app con el namespace App
 require join(DIRECTORY_SEPARATOR, [ VENDOR_PATH, "autoload.php" ]);
 
-
 $configuration = [
     'settings' => [
         'displayErrorDetails' => true,
     ],
 ];
 
-
 $c = new \Slim\Container($configuration);
-
 
 // Inicializo la aplicación
 $app = new \Slim\App($c);
