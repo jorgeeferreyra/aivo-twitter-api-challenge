@@ -38,7 +38,9 @@ class FrontController {
             echo json_encode($twitter->getFeedFrom($args["username"]));
         }
         catch (\Exception $e) {
-            die($e->getMessage());
+            echo json_encode([
+                "message" => $e->getMessage()
+            ]);
         }
     }
 
